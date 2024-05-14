@@ -11,9 +11,9 @@ public enum Role
 
 public class ChatGPT
 {
-    const string AzureOpenAIEndpoint = "https://bowen0514.openai.azure.com";  //👉replace it with your Azure OpenAI Endpoint
-    const string AzureOpenAIModelName = "s1"; //👉repleace it with your Azure OpenAI Model Deploy Name
-    const string AzureOpenAIToken = "6fff654b9e4a45528ecbd28b298a8bc4"; //👉repleace it with your Azure OpenAI API Key
+    const string AzureOpenAIEndpoint = "https://xxxxxx.openai.azure.com";  //👉replace it with your Azure OpenAI Endpoint
+    const string AzureOpenAIModelName = "xx"; //👉repleace it with your Azure OpenAI Model Deploy Name
+    const string AzureOpenAIToken = "xxxxx"; //👉repleace it with your Azure OpenAI API Key
     const string AzureOpenAIVersion = "2024-02-15-preview";  //👉replace  it with your Azure OpenAI API Version
 
     public static string CallAzureOpenAIChatAPI(
